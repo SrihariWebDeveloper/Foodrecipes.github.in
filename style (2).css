@@ -1,0 +1,321 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  position: absolute;
+  height: 100vh;
+  width: 85vh;
+  background-color: #000;
+  overflow: hidden;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.logo{
+  color: #fff;
+  font-family: "Sofia", sans-serif;
+  font-size: 3rem;
+}
+span{
+  color: indianred;
+}
+.ManuBar ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 10px;
+}
+.ManuBar ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: Bold;
+  font-size: 2rem;
+  font-family: "Trirong", sans-serif;
+}
+.ManuBar ul .active{
+  position: absolute;
+  left: 1150px;
+}
+.ManuBar ul li.active a{
+  color: red;
+}
+
+.ManuBar ul li a:hover{
+  color: red;
+  transition: 1s;
+}
+.image{
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 70px;
+  left:30px;
+}
+.text-1{
+  position: absolute;
+  top:300px;
+  left: 1130px;
+  color: #fff;
+}
+.text-2{
+  color: indianred;
+  font-size: 6rem;
+  font-family: "sofia", sans-serif;
+}
+.text-3{
+  font-family: "Trirong", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+  position: relative;
+}
+.mor{
+  position: absolute;
+  top: 500px;
+  left: 1400px;
+}
+.more{
+  color: #fff;
+  background-color: indianred;
+  border: none;
+  font-size:2rem;
+  line-height:10px;
+}
+.heading-1{
+  position: absolute;
+  left:740px;
+  top:710px;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: Bold;
+  font-family: "Trirong", sans-serif;
+}
+.underline{
+  display: inline-block;
+  height: 5px;
+  width: 220px;
+  margin: 4px;
+  border-radius: 15px;
+  background: #fff;
+  position: absolute;
+  top: 810px;
+  left: 740px;
+}
+.flow-start{
+  display: flex;
+  width: 3200px;
+  transition: 0.5s;
+} 
+.flow{
+  width: 800px;
+  height: 400px;
+  position: relative;
+}
+.pic{
+  position: absolute;
+  top: 650px;
+  right: 0px;
+  height: 100%;
+  left: 100px;
+}
+.pic img{
+  height: 100%;
+  border-radius: 50px;
+  z-index: 2;
+  box-shadow: 0 0 20px antiquewhite;
+}
+.matter{
+  width: 520px;
+  height: 270px;
+  position: absolute;
+  left: 80px;
+  top: 270%;
+}
+.matter h2{
+  position: absolute;
+  left: 105px;
+  color: indianred;
+  font-weight: Bold;
+  font-family: "Trirong", sans-serif;
+}
+.matter p{
+  position: absolute;
+  top: 40px;
+  color: #fff;
+  font-weight: Bold;
+}
+.start{
+  width: 900px;
+  height: 400px
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(40%, 10%);
+}
+.control{
+  position: absolute;
+  left: 40%;
+  top: 1190px;
+  transform: translateY(50%, 50%);
+  bottom: -50px;
+  z-index: 2;
+}
+.btn{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 4px;
+  border-radius: 15px;
+  background: #000;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 3px solid #fff;
+}
+.active{
+  width: 100px;
+}
+.terminals{
+}
+.heading-2{
+  position: absolute;
+  left:740px;
+  top:1500px;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: Bold;
+  font-family: "Trirong", sans-serif;
+}
+.underline-2{
+  display: inline-block;
+  height: 5px;
+  width: 160px;
+  margin: 4px;
+  border-radius: 15px;
+  background: #fff;
+  position: absolute;
+  top: 1580px;
+  left: 740px;
+}
+.btn-2{
+  position: absolute;
+  top: 1620px;
+  left: 140px;
+  display: flex;
+  border: 2px solid floralwhite;
+  border-radius: 20px;
+}
+button{
+  padding: 10px 5px;
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  margin: 5px;
+  border-radius: 20px;
+  font-family: "Trirong", sans-serif;
+  font-weight: Bold;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+}
+button.active{
+  background-color: indianred;
+  color: #000;
+}
+.filter-itmes{
+  display: flex;
+  margin-top: 25px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card{
+  flex-basis: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  top: 1130px;
+  left: 50px;
+}
+.card img{
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  width: 300px;
+  height: 200px;
+}
+.card-data{
+  padding: 15px 20px 15px;
+}
+.contant{
+  position: absolute;
+  top: 2666px;
+  left: 750px;
+  color: #fff;
+}
+.num{
+  font-size: 3rem;
+  font-weight: Bold;
+  font-family: "Trirong", sans-serif;
+}
+.underline-3{
+  display: inline-block;
+  height: 5px;
+  width: 210px;
+  margin: 4px;
+  border-radius: 15px;
+  background: #fff;
+  position: absolute;
+}
+.brands{
+  position: absolute;
+  top: 2800px;
+  left:100px;
+}
+.brands img{
+  border-radius:  15px;
+}
+.author{
+  width: 400px
+}
+.text-about{
+  color: #fff;
+  position: absolute;
+  left: 580px;
+  top: 2900px;
+}
+h6{
+  font-size:3rem;
+  color: indianred;
+}
+.sri{
+  font-size: 3rem;
+}
+.text-about p{
+  font-size: 2rem;
+}
+.social{
+  position: absolute;
+  top: 190px;
+  left: px;
+}
+.social i{
+  display: inline-block;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 3rem;
+}
+.text-e{
+  position: absolute;
+  left: 1165px;
+  top:2850px;
+}
+pre{
+  color: #fff;
+  font-size:2rem;
+}
+textarea{
+  background-color:#000;
+}
